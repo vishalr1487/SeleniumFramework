@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Vishal/Intellij/PracticeProject">
+        <classes>
+            <class name="mavenThroughCommand.AppiumTest">
+                <methods>
+                    <include name="mobileTesting1"/>
+                    <include name="mobileTesting2"/>
+                    <include name="mobileTesting3"/>
+                </methods>
+            </class>
+            <class name="mavenThroughCommand.RestAssuredTest">
+                <methods>
+                    <include name="ApiTesting1"/>
+                    <include name="ApiTesting2"/>
+                    <include name="ApiTesting3"/>
+                </methods>
+            </class>
+            <class name="mavenThroughCommand.SeleniumTest">
+                <methods>
+                    <include name="SeleniumUITesting1"/>
+                    <include name="SeleniumUITesting2"/>
+                    <include name="SeleniumUITesting3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

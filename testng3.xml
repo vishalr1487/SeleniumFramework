@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+    <test verbose="2" preserve-order="true" name="Personal Loan">
+        
+        <parameter name="URL" value="qaclickacademy"/>
+        <classes>
+            <class name="testNG.monday">
+
+            </class>
+            <class name="testNG.tuesday"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Car Loan">
+        <classes>
+            <class name="testNG.wednesday">
+                    <methods>
+                        <exclude name="duplicate1"/>
+                    </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
